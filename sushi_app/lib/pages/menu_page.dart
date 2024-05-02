@@ -38,25 +38,20 @@ class _MenuPageState extends State<MenuPage> {
     return Scaffold(
       backgroundColor: Colors.grey[300],
       appBar: AppBar(
+        foregroundColor: Colors.grey[800],
         actions: [
           // cart button
           IconButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pushNamed(context, '/cartpage');
+            },
             icon: Icon(Icons.shopping_cart),
           ),
         ],
         backgroundColor: Colors.transparent,
         elevation: 0,
-        leading: Icon(
-          Icons.menu,
-          color: Colors.grey[900],
-        ),
-        title: Text(
-          'Tokyo',
-          style: TextStyle(
-            color: Colors.grey[900],
-          ),
-        ),
+        leading: const Icon(Icons.menu),
+        title: const Text('Tokyo'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(25.0),
