@@ -1,4 +1,4 @@
-# Welcome!
+# Welcome! (Work In Progress)
 
 FluterLab is a testament to my journey in mastering Flutter. My first step is to follow through tutorials to grasp the fundamental structure of app dev using Flutter. In the future, I plan to develop some simple projects to showcase the skills that I have learned. 
 
